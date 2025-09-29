@@ -24,7 +24,6 @@ Logging: TestNG Reporter.log
 2. Maven (mvn --version)
 3. update ~/.zshrc with paths for java, maven 
 4. Browser installed (Chrome/Firefox)
-5. (Optional) Allure CLI (brew install allure)
 6. macOS terminal access
 
 ## 4. Project Structure
