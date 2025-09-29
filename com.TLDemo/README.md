@@ -20,11 +20,12 @@ Assertions: TestNG Assert
 Logging: TestNG Reporter.log  
 
 ## 3. Prerequisites
-1. Java (java -version)
-2. Maven (mvn -v)
-3. Browser installed (Chrome/Firefox)
-4. (Optional) Allure CLI (brew install allure)
-5. macOS terminal access
+1. Java (java --version)
+2. Maven (mvn --version)
+3. update ~/.zshrc with paths for java, maven 
+4. Browser installed (Chrome/Firefox)
+5. (Optional) Allure CLI (brew install allure)
+6. macOS terminal access
 
 ## 4. Project Structure
 project-root/  
@@ -33,9 +34,9 @@ project-root/
 ├─ target/ (generated)  
 ├─ src  
 │  ├─ main/java/org/exp/base/BaseClass.java  
-│  ├─ main/java/org/exp/pages/TlBusPage.java  
+│  ├─ main/java/org/exp/pages/*pages
 │  ├─ main/java/org/exp/utils/Helper.java  
-│  └─ test/java/org/exp/tests/TestOne.java  
+│  └─ test/java/org/exp/tests/*tests  
 └─ (generated reports)  
    ├─ target/surefire-reports/  
 
