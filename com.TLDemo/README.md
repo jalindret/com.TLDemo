@@ -5,7 +5,7 @@ Maven-based UI test automation framework using:
 - Selenium WebDriver
 - TestNG
 - Page Object Model (POM)
-- Reporting: Surefire (default), Allure, ExtentReports
+- Reporting: Surefire (default)
 - Utility helpers for waits, safe actions, time validation
 
 ## 2. Tech Stack
@@ -13,7 +13,7 @@ Language: Java 17+
 Build: Maven  
 Runner: TestNG  
 UI: Selenium WebDriver  
-Reporting: Surefire XML/TXT, Allure, ExtentReports  
+Reporting: Surefire
 Design: Page Object Model  
 Assertions: TestNG Assert  
 Logging: TestNG Reporter.log  
@@ -29,7 +29,6 @@ Logging: TestNG Reporter.log
 project-root/  
 ├─ pom.xml  
 ├─ README.md  
-├─ allure.properties  
 ├─ target/ (generated)  
 ├─ src  
 │  ├─ main/java/org/exp/base/BaseClass.java  
@@ -38,8 +37,6 @@ project-root/
 │  └─ test/java/org/exp/tests/TestOne.java  
 └─ (generated reports)  
    ├─ target/surefire-reports/  
-   ├─ target/allure-results/  
-   └─ target/extent-report.html  
 
 ## 5. Build & Run
 mvn clean test  
