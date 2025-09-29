@@ -108,7 +108,6 @@ public abstract class Helper {
         element.sendKeys(text);
     }
 
-    // ---- Internal retry logic ----
     public void clickWithRetry(WebElement element, int retries) {
         int attempts = 0;
         while (true) {
