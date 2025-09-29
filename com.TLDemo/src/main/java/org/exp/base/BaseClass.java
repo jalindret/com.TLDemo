@@ -43,7 +43,7 @@ public abstract class BaseClass {
         }
     }
 
-    // Main dynamic driver factory (returns raw WebDriver)
+    // Main dynamic driver factory 
     public static WebDriver createDriver(String browser, boolean headless, long implicitWaitSeconds) {
         WebDriver drv;
         switch (browser) {
