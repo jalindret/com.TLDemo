@@ -20,7 +20,7 @@ public abstract class BaseClass {
     public static final String BASE_URL = "https://www.translink.ca/";
     private static final long DEFAULT_EXPLICIT_WAIT = 10L;
 
-    protected WebDriver driver; // reverted to raw WebDriver
+    protected WebDriver driver;
 
     // --- Configuration helpers ---
     public static long getExplicitWaitSeconds() { return Long.getLong("explicitWait", DEFAULT_EXPLICIT_WAIT); }
