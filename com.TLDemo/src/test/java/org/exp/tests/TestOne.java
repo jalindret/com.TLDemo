@@ -11,7 +11,7 @@ public class TestOne extends BaseClass {
 
     @Test
     public void primaryTest() throws Exception {
-        homePage = new TlHomePage(driver); // driver is initialized in BaseClass @BeforeMethod
+        homePage = new TlHomePage(driver);
         homePage.open();
         homePage.clickSchedulesAndMapsMenu();
         busPage = new TlBusPage(driver);
