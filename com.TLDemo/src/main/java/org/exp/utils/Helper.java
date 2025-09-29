@@ -78,7 +78,7 @@ public abstract class Helper {
         return el;
     }
 
-    // Highlight with custom duration (ms) ***
+    // Highlight with custom duration ms
     public void highlight(WebElement element, long millis) {
         if (element == null) return;
         try {
