@@ -11,7 +11,7 @@ import java.time.Duration;
 
 /**
  * Abstract helper base providing reusable protected WebDriver interaction methods.
- * Page Objects can extend this to gain convenience methods without static calls.
+ * 
  */
 public abstract class Helper {
     protected final WebDriver driver;
