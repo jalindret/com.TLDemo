@@ -121,7 +121,4 @@ public abstract class Helper {
         }
     }
 
-    public void sleep(long ms) {
-        try { Thread.sleep(ms); } catch (InterruptedException ignored) { Thread.currentThread().interrupt(); }
-    }
 }
