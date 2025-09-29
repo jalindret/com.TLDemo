@@ -5,6 +5,7 @@ Maven-based UI test automation framework using:
 - Selenium WebDriver
 - TestNG
 - Page Object Model (POM)
+- Selectors - PageFactory using @FindBy
 - Reporting: Surefire (default)
 - Utility helpers for waits, safe actions, time validation
 
