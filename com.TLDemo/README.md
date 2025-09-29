@@ -34,7 +34,7 @@ project-root/
 ├─ src  
 │  ├─ main/java/org/exp/base/BaseClass.java  
 │  ├─ main/java/org/exp/pages/*pages
-│  ├─ main/java/org/exp/utils/Helper.java  
+│  ├─ main/java/org/exp/utils/Helper.java
 │  └─ test/java/org/exp/tests/*tests  
 └─ (generated reports)  
    ├─ target/surefire-reports/  
