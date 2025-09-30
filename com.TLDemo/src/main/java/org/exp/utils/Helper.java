@@ -9,10 +9,6 @@ import org.testng.Reporter;
 
 import java.time.Duration;
 
-/**
- * Abstract helper base providing reusable protected WebDriver interaction methods.
- * 
- */
 public abstract class Helper {
     protected final WebDriver driver;
     protected final long explicitWaitSeconds;
